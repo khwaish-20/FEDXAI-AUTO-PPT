@@ -111,9 +111,8 @@
             </p>
         </section>
 
-        <section id="problem" class="grid md:grid-cols-5 gap-12 items-stretch">
-            <div
-                class="md:col-span-3 glass p-10 rounded-[2.5rem] flex flex-col justify-center border-l-4 border-blue-600">
+        <section id="problem" class="grid md:grid-cols-3 gap-8 items-stretch">
+            <div class="glass p-8 rounded-3xl border-l-4 border-blue-600 flex flex-col justify-center">
                 <h2 class="text-3xl font-extrabold mb-6">Problem Statement</h2>
                 <p class="text-slate-400 leading-relaxed text-justify">The automotive industry is shifting towards
                     proactive Predictive Maintenance (PdM), particularly to handle new challenges like accelerated part
@@ -122,27 +121,26 @@
                     privacy, and (2) The 'Black Box' nature of AI, which gives drivers opaque warnings without
                     explaining why a part is failing, destroying user trust.</p>
             </div>
-            <div class="md:col-span-2 space-y-6">
-                <div class="glass p-7 rounded-3xl border-r-4 border-blue-500/50">
-                    <h3 class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-2">Literature Review /
-                        Market Research</h3>
-                    <p class="text-sm text-slate-500 italic text-justify">Current PdM systems face two major roadblocks.
-                        First, traditional methods rely on centralized data sharing, which violates data confidentiality
-                        and security regulations. Second, these AI models suffer from a lack of interpretability; they
-                        act as opaque "black boxes," making it difficult for operators to trust their failure
-                        predictions. Recent 2025 research successfully applied Explainable Federated Learning (XFL) to
-                        static factory machines, FedXAI-Auto bridges the gap to the dynamic automotive sector.</p>
-                </div>
-                <div class="glass p-7 rounded-3xl border-r-4 border-purple-500/50">
-                    <h3 class="text-purple-400 font-bold text-xs uppercase tracking-widest mb-2">Research Gap /
-                        Innovation</h3>
-                    <p class="text-sm text-slate-500 italic text-justify">A recent 2025 study successfully developed a
-                        privacy-preserving Explainable FL (XFL) model for sustainable manufacturing, achieving an
-                        impressive 98.15% accuracy in a factory setting. In FEDXAI-AUTO, we innovate by deploying a
-                        lightweight, decentralized Temporal Model (CNN+LSTM) onto an ESP32 edge device, ensuring zero
-                        raw-data leakage while using XAI to translate complex E20 degradation signatures into
-                        human-readable alerts for drivers.</p>
-                </div>
+            <div class="glass p-8 rounded-3xl border-l-4 border-blue-500/50 flex flex-col justify-center">
+                <h3 class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-2">Literature Review /
+                    Market Research</h3>
+                <p class="text-sm text-slate-500 italic text-justify">Current PdM systems face two major roadblocks.
+                    First, traditional methods rely on centralized data sharing, which violates data confidentiality
+                    and security regulations. Second, these AI models suffer from a lack of interpretability; they
+                    act as opaque "black boxes," making it difficult for operators to trust their failure
+                    predictions. Recent 2025 research successfully applied Explainable Federated Learning (XFL) to
+                    static factory machines, FedXAI-Auto bridges the gap to the dynamic automotive sector.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl border-l-4 border-purple-500/50 flex flex-col justify-center">
+                <h3 class="text-purple-400 font-bold text-xs uppercase tracking-widest mb-2">Research Gap /
+                    Innovation</h3>
+                <p class="text-sm text-slate-500 italic text-justify">A recent 2025 study successfully developed a
+                    privacy-preserving Explainable FL (XFL) model for sustainable manufacturing, achieving an
+                    impressive 98.15% accuracy in a factory setting. In FEDXAI-AUTO, we innovate by deploying a
+                    lightweight, decentralized Temporal Model (CNN+LSTM) onto an ESP32 edge device, ensuring zero
+                    raw-data leakage while using XAI to translate complex E20 degradation signatures into
+                    human-readable alerts for drivers.</p>
             </div>
         </section>
 
